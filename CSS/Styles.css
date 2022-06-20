@@ -69,13 +69,13 @@ button {
     background-color: #000;
     border: none;
     width: auto;
-    height: 25px;
+    height: 40px;
     color: #fff;
     border-radius: 8px;
-    display: inline-flex;
-    margin: 100px 0;
+    display: block;
+    margin: 50px 80px;
     font-weight: 900;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 button:hover {
     background-color: grey;
@@ -85,17 +85,26 @@ button:hover {
     width: 90%;
     height: 400px;
     max-width: 2000px;
-    border: #000 solid 5px;
     margin: 0px;
-    font-size: 20px;
-    line-height: 20px;
-    text-align: center;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: inherit;
 }
 .Productos > div {
-    height: 20px;
+    height: 360px;
     display: block;
     padding: 20px;
-    color: #fff;
-    background: blue;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, .25);
+    color: #000;
+}
+.letra-grande {
+    font-size: 50px;
+}
+.imagen-grande {
+    background-image: url(../Imagenes/Presentación.jpeg);
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+}
+.letra-pequeña {
+    font-size: 20px;
 }

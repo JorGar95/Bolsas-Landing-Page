@@ -4,3 +4,10 @@
     grid-template-rows: 50px;
     gap: 100px;
 }
+.Productos {
+    display: grid;
+    grid-template-columns: 700px 550px;
+    grid-template-rows: 60px;
+    gap: 100px;
+    
+}
